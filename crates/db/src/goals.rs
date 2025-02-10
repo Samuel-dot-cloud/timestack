@@ -54,7 +54,7 @@ impl Goal {
         .await?;
 
         let goals: Vec<Goal> = rows.into_iter().map(|row| Goal {
-            id: row.id, // Unwrap the Option<i64>
+            id: row.id,
             name: row.name,
             target_duration: row.target_duration,
             frequency: row.frequency,
