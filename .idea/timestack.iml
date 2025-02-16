@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/apps/desktop/src-tauri/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/apps/server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/crates/db/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/cli/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/apps/desktop/src-tauri/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
