@@ -6,11 +6,11 @@ edition = "2021"
 [dependencies]
 axum = "0.8.1"
 serde = { version = "1.0.217", features = ["derive"] }
-serde_json = "1.0.138"
 tokio = { version = "1.43.0", features = ["full"] }
 tracing = "0.1.41"
-tracing-subscriber = { version = "0.3.19", features = ["env-filter"]}
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 
-db = { path = "../../crates/db"}
+db = { path = "../../crates/db" }
 chrono = "0.4.39"
 dirs = "6.0.0"
+tower-http = { version = "0.6.2", features = ["cors"] }

@@ -1,15 +1,15 @@
-pub mod connection;
-pub mod events;
-pub mod projects;
 pub mod afk_events;
-pub mod goals;
-pub mod tags;
-pub mod yearly_summaries;
-mod utils;
-mod languages;
 mod apps;
 mod branches;
-mod heartbeats;
+pub mod connection;
 mod entities;
+pub mod events;
+pub mod goals;
+pub mod heartbeats;
+mod languages;
+pub mod projects;
+pub mod tags;
+mod utils;
+pub mod yearly_summaries;
 
 pub use connection::DBContext;
